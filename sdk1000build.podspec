@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "sdk1000build"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Connect and explore with sdk1000build."
   spec.description  = "EasyConnect is a powerful and versatile software development kit (SDK) that provides developers with a comprehensive set of tools and functionalities for building innovative and feature-rich applications. With EasyConnect, developers can easily integrate advanced features such as data synchronization, real-time communication, and analytics into their applications, enhancing user experience and driving engagement. The SDK offers a user-friendly interface, extensive documentation, and robust support, making it an ideal choice for developers looking to streamline their development process and deliver high-quality applications with ease. Unlock the full potential of your app with EasyConnect"
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "14.0"
   spec.source       = { :git => "https://github.com/Jiju-keyvalue/sdk1000build.git", :tag => spec.version }
   spec.documentation_url = 'https://indianexpress.com/'
-  spec.vendored_frameworks  = "msd_sdk.xcframework"
+  spec.vendored_frameworks  = "sdk1000.xcframework"
   spec.swift_versions = "5.0"
 
 end
