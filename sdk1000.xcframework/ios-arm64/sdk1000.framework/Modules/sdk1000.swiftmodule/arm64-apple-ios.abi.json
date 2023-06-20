@@ -1,0 +1,62 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sdk1000"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MS",
+        "printedName": "MS",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MS",
+                "printedName": "sdk1000.MS",
+                "usr": "s:7sdk10002MSC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7sdk10002MSC10initialize5tokenACSS_tFZ",
+            "mangledName": "$s7sdk10002MSC10initialize5tokenACSS_tFZ",
+            "moduleName": "sdk1000",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7sdk10002MSC",
+        "mangledName": "$s7sdk10002MSC",
+        "moduleName": "sdk1000",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
