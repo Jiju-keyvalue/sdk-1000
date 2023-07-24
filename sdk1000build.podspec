@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "sdk1000build"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Connect and explore with sdk1000build."
   spec.description  = "EasyConnect is a powerful and versatile software development kit (SDK) that provides developers with a comprehensive set of tools and functionalities for building innovative and feature-rich applications. With EasyConnect, developers can easily integrate advanced features such as data synchronization, real-time communication, and analytics into their applications, enhancing user experience and driving engagement. The SDK offers a user-friendly interface, extensive documentation, and robust support, making it an ideal choice for developers looking to streamline their development process and deliver high-quality applications with ease. Unlock the full potential of your app with EasyConnect"
 
